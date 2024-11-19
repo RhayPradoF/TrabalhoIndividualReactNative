@@ -1,0 +1,283 @@
+
+[
+    {
+      "id": "1",
+      "user": {
+        "id": "u1",
+        "name": "Rhayssa Frias",
+        "image": "https://media.licdn.com/dms/image/v2/D4D03AQE8NlTKecvTRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1687275815543?e=1736985600&v=beta&t=-LkPwjWP6YiJWSUd_2vxPmJ5_4cKxuqblaJi2qH0nF0",
+        "status": "Olá, tudo bem!!"
+      },
+      "lastMessage": {
+        "id": "m1",
+        "text": "Agora eu vou poder dormir em tranquilidade e felicidade!",
+        "createdAt": "2024-11-15T03:31:00.000Z"
+      }
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "u2",
+        "name": "Maria",
+        "image": "https://randomuser.me/api/portraits/women/2.jpg",
+        "status": "Bom dia!"
+      },
+      "lastMessage": {
+        "id": "m2",
+        "text": "Acho que podemos melhorar na próxima sprint!",
+        "createdAt": "2024-03-04T15:00:00.000Z"
+      }
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": "u3",
+        "name": "Carlos",
+        "image": "https://randomuser.me/api/portraits/men/3.jpg",
+        "status": "Aqui para ajudar!"
+      },
+      "lastMessage": {
+        "id": "m3",
+        "text": "Alguém tem sugestões para a próxima tarefa?",
+        "createdAt": "2024-03-06T09:00:00.000Z"
+      }
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": "u4",
+        "name": "Ana",
+        "image": "https://randomuser.me/api/portraits/women/4.jpg",
+        "status": "Sempre disponível!"
+      },
+      "lastMessage": {
+        "id": "m4",
+        "text": "Vamos tentar melhorar a comunicação entre as equipes!",
+        "createdAt": "2024-03-07T11:20:00.000Z"
+      }
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": "u5",
+        "name": "Felipe",
+        "image": "https://randomuser.me/api/portraits/men/5.jpg",
+        "status": "A caminho do sucesso!"
+      },
+      "lastMessage": {
+        "id": "m5",
+        "text": "Tive algumas ideias para a próxima etapa, vou compartilhar em breve.",
+        "createdAt": "2024-03-08T14:45:00.000Z"
+      }
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": "u6",
+        "name": "Larissa",
+        "image": "https://randomuser.me/api/portraits/women/6.jpg",
+        "status": "Ansiosa para o fim de semana!"
+      },
+      "lastMessage": {
+        "id": "m6",
+        "text": "Conseguimos fazer tudo que planejamos, ótimo trabalho!",
+        "createdAt": "2024-03-03T16:00:00.000Z"
+      }
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": "u7",
+        "name": "Gustavo",
+        "image": "https://randomuser.me/api/portraits/men/7.jpg",
+        "status": "Trabalhando duro!"
+      },
+      "lastMessage": {
+        "id": "m7",
+        "text": "Tenho algumas sugestões de melhoria para a próxima versão.",
+        "createdAt": "2024-03-09T17:30:00.000Z"
+      }
+    },
+    {
+      "id": "8",
+      "user": {
+        "id": "u8",
+        "name": "Beatriz",
+        "image": "https://randomuser.me/api/portraits/women/8.jpg",
+        "status": "Adorando a rotina!"
+      },
+      "lastMessage": {
+        "id": "m8",
+        "text": "Alguém já verificou a documentação das novas funcionalidades?",
+        "createdAt": "2024-03-02T08:10:00.000Z"
+      }
+    },
+    {
+      "id": "9",
+      "user": {
+        "id": "u9",
+        "name": "Lucas",
+        "image": "https://randomuser.me/api/portraits/men/9.jpg",
+        "status": "Viajando pelo mundo!"
+      },
+      "lastMessage": {
+        "id": "m9",
+        "text": "Estou enviando o relatório da última reunião.",
+        "createdAt": "2024-03-01T13:00:00.000Z"
+      }
+    },
+    {
+      "id": "10",
+      "user": {
+        "id": "u10",
+        "name": "Juliana",
+        "image": "https://randomuser.me/api/portraits/women/10.jpg",
+        "status": "Focada nos estudos!"
+      },
+      "lastMessage": {
+        "id": "m10",
+        "text": "Vamos organizar um workshop para a equipe na próxima semana.",
+        "createdAt": "2024-03-06T18:20:00.000Z"
+      }
+    },
+    {
+      "id": "11",
+      "user": {
+        "id": "u11",
+        "name": "Roberto",
+        "image": "https://randomuser.me/api/portraits/men/11.jpg",
+        "status": "Em busca de novos desafios!"
+      },
+      "lastMessage": {
+        "id": "m11",
+        "text": "Eu estarei disponível para qualquer dúvida durante a semana.",
+        "createdAt": "2024-03-04T10:30:00.000Z"
+      }
+    },
+    {
+      "id": "12",
+      "user": {
+        "id": "u12",
+        "name": "Fernanda",
+        "image": "https://randomuser.me/api/portraits/women/12.jpg",
+        "status": "Feliz por estar aqui!"
+      },
+      "lastMessage": {
+        "id": "m12",
+        "text": "A entrega foi excelente! Parabéns a todos!",
+        "createdAt": "2024-02-28T19:00:00.000Z"
+      }
+    },
+    {
+      "id": "13",
+      "user": {
+        "id": "u13",
+        "name": "Vinícius",
+        "image": "https://randomuser.me/api/portraits/men/13.jpg",
+        "status": "Em constante aprendizado!"
+      },
+      "lastMessage": {
+        "id": "m13",
+        "text": "Preciso revisar alguns pontos do último documento.",
+        "createdAt": "2024-03-02T11:50:00.000Z"
+      }
+    },
+    {
+      "id": "14",
+      "user": {
+        "id": "u14",
+        "name": "Patrícia",
+        "image": "https://randomuser.me/api/portraits/women/14.jpg",
+        "status": "Amando a vida!"
+      },
+      "lastMessage": {
+        "id": "m14",
+        "text": "Vamos agendar uma call para discutirmos o novo projeto.",
+        "createdAt": "2024-02-27T14:30:00.000Z"
+      }
+    },
+    {
+      "id": "15",
+      "user": {
+        "id": "u15",
+        "name": "Ricardo",
+        "image": "https://randomuser.me/api/portraits/men/15.jpg",
+        "status": "Tentando relaxar!"
+      },
+      "lastMessage": {
+        "id": "m15",
+        "text": "Concluímos a tarefa antes do prazo, ótimo trabalho!",
+        "createdAt": "2024-11-10T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "16",
+      "user": {
+        "id": "u16",
+        "name": "Cássia",
+        "image": "https://randomuser.me/api/portraits/women/16.jpg",
+        "status": "Aproveitando cada momento!"
+      },
+      "lastMessage": {
+        "id": "m16",
+        "text": "Vou compartilhar o feedback da última reunião com todos.",
+        "createdAt": "2024-03-05T12:10:00.000Z"
+      }
+    },
+    {
+      "id": "17",
+      "user": {
+        "id": "u17",
+        "name": "Eduardo",
+        "image": "https://randomuser.me/api/portraits/men/17.jpg",
+        "status": "Trabalhando no futuro!"
+      },
+      "lastMessage": {
+        "id": "m17",
+        "text": "Já estou no processo de revisar os pontos importantes.",
+        "createdAt": "2024-03-04T16:50:00.000Z"
+      }
+    },
+    {
+      "id": "18",
+      "user": {
+        "id": "u18",
+        "name": "Carla",
+        "image": "https://randomuser.me/api/portraits/women/18.jpg",
+        "status": "Aproveitando o dia!"
+      },
+      "lastMessage": {
+        "id": "m18",
+        "text": "Vamos revisar o planejamento antes da reunião amanhã.",
+        "createdAt": "2024-03-07T10:10:00.000Z"
+      }
+    },
+    {
+      "id": "19",
+      "user": {
+        "id": "u19",
+        "name": "Eduardo",
+        "image": "https://randomuser.me/api/portraits/men/19.jpg",
+        "status": "Gostando muito deste projeto!"
+      },
+      "lastMessage": {
+        "id": "m19",
+        "text": "Como posso ajudar com a parte final da entrega?",
+        "createdAt": "2024-03-09T08:40:00.000Z"
+      }
+    },
+    {
+      "id": "20",
+      "user": {
+        "id": "u20",
+        "name": "Sofia",
+        "image": "https://randomuser.me/api/portraits/women/20.jpg",
+        "status": "Trabalhando em novos projetos!"
+      },
+      "lastMessage": {
+        "id": "m20",
+        "text": "Estou organizando as tarefas para a próxima sprint.",
+        "createdAt": "2024-03-08T13:00:00.000Z"
+      }
+    }
+  ]
