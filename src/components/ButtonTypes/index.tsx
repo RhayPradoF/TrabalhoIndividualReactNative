@@ -4,19 +4,20 @@ import { styles } from "./styles";
 
 interface PropsButton {
     title: string | number;
+    onPress?:() => void;
     propsBackGroundColor?: string;
     propsTitleColor?: string;
-    handleFunnction: () => void;
+
 
 
 }
 
-export const ButtonTypes = ({ title, propsBackGroundColor, propsTitleColor, handleFunnction }: PropsButton) => {
+export const ButtonTypes = ({ title, propsBackGroundColor, propsTitleColor, onPress }: PropsButton) => {
 
 
     return (
         <TouchableOpacity
-            onPress={handleFunnction}
+            onPress={onPress}
             activeOpacity={0.2}
             style={[styles.styleButton,
             {

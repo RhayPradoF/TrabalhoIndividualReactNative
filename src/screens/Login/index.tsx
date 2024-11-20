@@ -1,61 +1,59 @@
 import React, { useState } from 'react';
 import {
-    Alert,
-    Text,
-    View,
-    TouchableWithoutFeedback,
-    Keyboard,
-    TextInput,
-    Platform,
-    KeyboardAvoidingView,
-    ScrollView } from 'react-native';
+  Alert,
+  Text,
+  View,
+  TouchableWithoutFeedback,
+  Keyboard,
+  TextInput,
+  Platform,
+  KeyboardAvoidingView,
+  ScrollView,
+} from 'react-native';
 import { styles } from './style';
 import { ButtonTypes } from "../../components/ButtonTypes";
 import paises from "../../Mock/paises";
 import { Picker } from '@react-native-picker/picker';
 import { useNavigation } from '@react-navigation/native';
 
-const getPaises = () => {
-  return paises;
-};
-
 export const Login = () => {
   const [selectedCountry, setSelectedCountry] = useState<string>('');
   const [phoneNumber, setPhoneNumber] = useState<string>('');
   const [isPickerVisible, setIsPickerVisible] = useState(false);
 
+  const navigation = useNavigation();
+
   const handleLogin = () => {
-    Alert.alert('Login clicado!');
-  };
-
-  const dismissKeyboard = () => {
-    Keyboard.dismiss();
-  };
-
-  const togglePicker = () => {
-    setIsPickerVisible(!isPickerVisible);
-  };
-
-
-const navigation = useNavigation();
-
-const onLoginSuccess = () => {
-    if(handleLogin() === true){
-        navigation.navigate('Home');
+    if (!selectedCountry) {
+      Alert.alert('Erro', 'Por favor, selecione um país.');
+      return;
     }
-}
 
+    if (!phoneNumber) {
+      Alert.alert('Erro', 'Por favor, insira seu número de telefone.');
+      return;
+    }
+
+    Alert.alert('Sucesso', 'Login realizado com sucesso!');
+    navigation.navigate('Home');
+  };
+
+  const dismissKeyboard = () => Keyboard.dismiss();
+
+  const togglePicker = () => setIsPickerVisible(!isPickerVisible);
 
   return (
     <KeyboardAvoidingView
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
-      <ScrollView contentContainerStyle={{ flexGrow: 1, justifyContent: 'center' }}
-      keyboardShouldPersistTaps="handled">
-        <Text style={styles.title}>Verifique seu número</Text>
+      <TouchableWithoutFeedback onPress={dismissKeyboard}>
+        <ScrollView
+          contentContainerStyle={{ flexGrow: 1, justifyContent: 'center' }}
+          keyboardShouldPersistTaps="handled"
+        >
+          <Text style={styles.title}>Verifique seu número</Text>
 
-        <TouchableWithoutFeedback onPress={dismissKeyboard}>
           <View style={styles.formContainer}>
             <Text style={styles.description}>
               O WhatsApp enviará um SMS para verificar seu número de telefone.
@@ -72,7 +70,6 @@ const onLoginSuccess = () => {
               </View>
             </TouchableWithoutFeedback>
 
-            {/* Exibir o Picker quando o usuário clicar */}
             {isPickerVisible && (
               <View style={styles.pickerContainer}>
                 <Picker
@@ -84,7 +81,7 @@ const onLoginSuccess = () => {
                   style={styles.picker}
                 >
                   <Picker.Item label="Selecione..." value="" />
-                  {getPaises().map((pais) => (
+                  {paises.map((pais) => (
                     <Picker.Item
                       key={pais.id}
                       label={pais.label}
@@ -104,17 +101,19 @@ const onLoginSuccess = () => {
               maxLength={15}
             />
 
-            <ButtonTypes OnPress={onLoginSuccess}
-              handleFunnction={handleLogin}
+            <ButtonTypes
+              onPress={handleLogin}
               title="Avançar"
-              propsTitleColor='#fff'
+              propsTitleColor="#fff"
               propsBackGroundColor="#1DB954"
             />
 
-            <Text style={styles.smsDisclaimer}>Tarifas de SMS de sua operadora podem ser aplicadas.</Text>
+            <Text style={styles.smsDisclaimer}>
+              Tarifas de SMS de sua operadora podem ser aplicadas.
+            </Text>
           </View>
-        </TouchableWithoutFeedback>
-      </ScrollView>
+        </ScrollView>
+      </TouchableWithoutFeedback>
     </KeyboardAvoidingView>
   );
 };

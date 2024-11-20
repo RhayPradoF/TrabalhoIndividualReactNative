@@ -14,7 +14,7 @@ export const Navigator = () => {
     return (
         <NavigationContainer>
             <Stack.Navigator
-                initialRouteName="Home" //depois que terminar colocar a welcome para ser a principal
+                initialRouteName="Welcome" //depois que terminar colocar a welcome para ser a principal
                 screenOptions={{
                     headerStyle: {
                         backgroundColor: "whitesmoke",
@@ -44,7 +44,7 @@ export const Navigator = () => {
                     name="Chat"
                     component={ChatScreen}
                     options={({navigation}) => ({
-                        headerTitle:"Mensagem", // mudar para o nome do usuário que eu estou conversando
+                        headerTitle:"Mensagem",
                         headerTitleAlign: "center",
                     })}
 
