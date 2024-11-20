@@ -3,13 +3,16 @@ import { styles } from './style';
 import { ButtonTypes } from "../../components/ButtonTypes";
 import ImagePreLogin from "../../assets/assets/welcome.png";
 import { ButtonComp } from "../../components/ButtonComp";
+import { useNavigation } from "@react-navigation/native";
 
 
 export default function Welcome() {
 
-    const handleLogin = () => {
-        Alert.alert('Botão para realizar Login')
-        console.log("Pegando informações");
+    const navigation = useNavigation();
+
+    const onGoToLogin = () => {
+
+        navigation.navigate('Login');
 
     }
 
@@ -30,7 +33,7 @@ export default function Welcome() {
                             Terms of Service.</Text>{' '}
                         </Text>
              </View>
-                        <ButtonComp handleFunction={handleLogin}
+                        <ButtonComp handleFunction={onGoToLogin}
                         propsBackgroundColor="#fff"
                         propsTitleColor="blue"
                         title="Agree & continue"  />

@@ -41,13 +41,8 @@ const navigation = useNavigation();
 
 const onLoginSuccess = () => {
     if(handleLogin() === true){
-        navigation.navigate('Messages');
+        navigation.navigate('Home');
     }
-        else{
-            navigation.navigate('Welcome');
-        }
-
-    navigation.navigate('Messages');
 }
 
 

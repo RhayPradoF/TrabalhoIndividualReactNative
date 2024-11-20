@@ -1,0 +1,164 @@
+[
+    {
+        "id": "m1",
+        "text": "Olá, tudo bem?",
+        "createdAt": "2024-11-18T10:00:00Z",
+        "user": {
+            "id": "u1",
+            "name": "João"
+        }
+    },
+    {
+        "id": "m2",
+        "text": "Oi João! Tudo ótimo, e você?",
+        "createdAt": "2024-11-18T10:05:00Z",
+        "user": {
+            "id": "u2",
+            "name": "Maria"
+        }
+    },
+    {
+        "id": "m3",
+        "text": "Estou bem, obrigado! O que está fazendo?",
+        "createdAt": "2024-11-18T10:10:00Z",
+        "user": {
+            "id": "u1",
+            "name": "João"
+        }
+    },
+    {
+        "id": "m4",
+        "text": "Estou trabalhando em um projeto, mas está tranquilo por aqui.",
+        "createdAt": "2024-11-18T10:15:00Z",
+        "user": {
+            "id": "u2",
+            "name": "Maria"
+        }
+    },
+    {
+        "id": "m5",
+        "text": "Oi pessoal! Alguma novidade sobre o design?",
+        "createdAt": "2024-11-18T10:20:00Z",
+        "user": {
+            "id": "u3",
+            "name": "Carlos"
+        }
+    },
+    {
+        "id": "m6",
+        "text": "Carlos, precisamos revisar as cores. Vou te enviar os arquivos.",
+        "createdAt": "2024-11-18T10:25:00Z",
+        "user": {
+            "id": "u5",
+            "name": "Luiza"
+        }
+    },
+    {
+        "id": "m7",
+        "text": "Ótimo, Luiza! Obrigado por avisar.",
+        "createdAt": "2024-11-18T10:30:00Z",
+        "user": {
+            "id": "u3",
+            "name": "Carlos"
+        }
+    },
+    {
+        "id": "m8",
+        "text": "Preciso de ajuda com os relatórios antes da reunião.",
+        "createdAt": "2024-11-18T11:00:00Z",
+        "user": {
+            "id": "u4",
+            "name": "Ana"
+        }
+    },
+    {
+        "id": "m9",
+        "text": "Ana, eu posso te ajudar! Vou organizar os dados e te envio.",
+        "createdAt": "2024-11-18T11:05:00Z",
+        "user": {
+            "id": "u1",
+            "name": "João"
+        }
+    },
+    {
+        "id": "m10",
+        "text": "Muito obrigado, João! Isso vai me poupar bastante tempo.",
+        "createdAt": "2024-11-18T11:10:00Z",
+        "user": {
+            "id": "u4",
+            "name": "Ana"
+        }
+    },
+    {
+        "id": "m11",
+        "text": "Ei, equipe! Já temos os gráficos atualizados?",
+        "createdAt": "2024-11-18T11:15:00Z",
+        "user": {
+            "id": "u5",
+            "name": "Luiza"
+        }
+    },
+    {
+        "id": "m12",
+        "text": "Sim, Luiza. Vou te enviar agora mesmo.",
+        "createdAt": "2024-11-18T11:20:00Z",
+        "user": {
+            "id": "u2",
+            "name": "Maria"
+        }
+    },
+    {
+        "id": "m13",
+        "text": "Perfeito, Maria! Obrigada pela agilidade.",
+        "createdAt": "2024-11-18T11:25:00Z",
+        "user": {
+            "id": "u5",
+            "name": "Luiza"
+        }
+    },
+    {
+        "id": "m14",
+        "text": "Se precisarem de algo sobre o layout, é só me chamar!",
+        "createdAt": "2024-11-18T11:30:00Z",
+        "user": {
+            "id": "u1",
+            "name": "João"
+        }
+    },
+    {
+        "id": "m15",
+        "text": "Claro, João! Você é sempre muito prestativo.",
+        "createdAt": "2024-11-18T11:35:00Z",
+        "user": {
+            "id": "u4",
+            "name": "Ana"
+        }
+    },
+    {
+        "id": "m16",
+        "text": "Equipe, vamos nos reunir às 15h para alinhar o progresso?",
+        "createdAt": "2024-11-18T12:00:00Z",
+        "user": {
+            "id": "u3",
+            "name": "Carlos"
+        }
+    },
+    {
+        "id": "m17",
+        "text": "Por mim está ótimo, Carlos!",
+        "createdAt": "2024-11-18T12:05:00Z",
+        "user": {
+            "id": "u2",
+            "name": "Maria"
+        }
+    },
+    {
+        "id": "m18",
+        "text": "Também estou disponível nesse horário.",
+        "createdAt": "2024-11-18T12:10:00Z",
+        "user": {
+            "id": "u5",
+            "name": "Luiza"
+        }
+    }
+]

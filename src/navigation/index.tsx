@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { ContatoScreen } from "../screens/ContatoScreen";
 import Welcome from "../../src/screens/Welcome";
 import { Login } from "../screens/Login";
+import { ChatScreen } from "../screens/ChatScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -28,13 +29,25 @@ export const Navigator = () => {
                         headerShadowVisible: false,
                         headerShown: false,
                         fullScreenGestureShadowEnabled: false,
+
                     }}
+
                 />
 
                 <Stack.Screen
                     name="Home"
                     component={MainTabNavigator}
                     options={{ headerShown: false }}
+                />
+
+                <Stack.Screen
+                    name="Chat"
+                    component={ChatScreen}
+                    options={({navigation}) => ({
+                        headerTitle:"Mensagem", // mudar para o nome do usuário que eu estou conversando
+                        headerTitleAlign: "center",
+                    })}
+
                 />
 
                 <Stack.Screen

@@ -15,9 +15,13 @@ export const ChatListItem = ({ chat }) => {
     const navigation = useNavigation();
 
     const onGoToChat = () => {
-        Alert.alert("Vamos conversar com ", chat.user.name);
 
-    }
+        navigation.navigate('Chat', {
+            id: chat.id,
+            name:chat.user.name,
+            });
+
+    };
 
     return (
         <Pressable
